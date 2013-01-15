@@ -20,6 +20,11 @@ all:
 	make synapter
 	make clean
 
+real:
+	cp ./MSnbase-demo/MSnbase-demo.Rnw ./MSnbase-demo.Rnw 
+	cp ./MSnbase-development/MSnbase-development.Rnw ./MSnbase-development.Rnw 
+	cp ./MSnbase-io/MSnbase-io.Rnw ./MSnbase-io.Rnw 
+
 setvars:
 ifeq (${R_HOME},)
 R_HOME=	$(shell R RHOME)
