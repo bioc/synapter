@@ -1,3 +1,11 @@
+CHANGES IN VERSION 1.4.1
+------------------------
+ o Fix for wrong calculation of non unique matches by Sebastian Gigg [2014-03-05 Wed]
+
+CHANGES IN VERSION 1.4.0
+------------------------
+ o new stable verison Bioc 2.13
+
 CHANGES IN VERSION 1.3.4
 ------------------------
  o estimateMasterFdr now support list of vector as pepfiles <2013-09-27 Fri>

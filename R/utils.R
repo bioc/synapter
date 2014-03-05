@@ -385,7 +385,7 @@ getAssignmentDetails <- function(matchedEmrts) {
                   ifelse(x["spectrumID"] == x["precursor.leID.quant"], 1, -1)
                 } else {
                   .x <- as.numeric(unlist(strsplit(x["matched.quant.spectrumIDs"], ",")))
-                  ifelse(x["precursor.leID.quant"] %in% .x, 2, -2)
+                  ifelse(as.numeric(x["precursor.leID.quant"]) %in% .x, 2, -2)
                 }
               }))
 }
