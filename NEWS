@@ -1,7 +1,11 @@
+CHANGES IN VERSION 1.8.4
+------------------------
+ o Remove GNU Make syntax [2015-03-21 Sat]
+ 
 CHANGES IN VERSION 1.8.3
 ------------------------
-o Filter entries in quantiation final peptides and Pep3D data that don't match
-  in their intensity valus; see #42 for details. [2014-11-26 Wed]
+ o Filter entries in quantiation final peptides and Pep3D data that don't match
+   in their intensity valus; see #42 for details. [2014-11-26 Wed]
 
 CHANGES IN VERSION 1.8.2
 ------------------------

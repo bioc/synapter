@@ -20,11 +20,6 @@ all:
 	make synapter
 	make clean
 
-setvars:
-ifeq (${R_HOME},)
-R_HOME=	$(shell R RHOME)
-endif
-
 synapter: 
 	"$(R_HOME)/bin/R" CMD pdflatex synapter.tex
 	bibtex synapter
