@@ -1,6 +1,6 @@
-# Synapter 2.21
+# Synapter 2.20
 
-## Changes in version 2.21.1
+## Changes in version 2.20.1
 
 - Render fragmentmatching.Rmd with rmarkdown::html_document() (see #139)
 
