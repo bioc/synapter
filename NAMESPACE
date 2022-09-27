@@ -1,5 +1,4 @@
 import(cleaver)
-import(knitr)
 import(utils)
 import(MSnbase)
 import(methods)
